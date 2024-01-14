@@ -1,0 +1,46 @@
+.big-two-section{
+    @include banner();
+   margin-top: 6rem;
+
+   section{
+       width:100%;
+       text-align: center;
+       border-radius:22px;
+
+       img{
+           width: 100%;
+           border-radius: 22px;
+       }
+
+   }
+   .bk{
+       background: radial-gradient(circle, rgba(240,240,240,1) 7%, rgba(255,255,255,1) 23%, rgba(170,209,255,1) 100%);
+
+       img{
+           width: 50px;
+           background-color:$whiteColor;
+           border-radius: 100%;
+           padding: 28px;
+           margin-top: 9rem;
+           box-sizing: unset;
+           margin-bottom: 2rem;
+       }
+
+       h3{
+           font-size: 3.5rem;
+           font-weight: 700;
+           color: $anotherColor;
+           margin-bottom: 3rem;
+       }
+
+       p{
+           font-size: 2rem;
+           color:$anotherColor;
+       }
+       .my-botton{
+           @include button();
+           margin-top: 3.5rem;
+           margin-bottom:15rem;
+       }
+   }
+}

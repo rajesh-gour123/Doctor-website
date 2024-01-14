@@ -1,0 +1,110 @@
+.health-plan{
+    @include banner();
+    background-color: #eff3f7;
+    text-align: center;
+    padding:6rem 2rem;
+
+    .my-row{
+        h3{
+            font-weight: 700;
+            font-size: 1.6rem;
+            color:$mycolor;
+        }
+
+        h4{
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color:$anotherColor;
+        }
+
+        p{
+            font-size: 1.6rem;
+            color:$anotherColor
+        }
+    }
+}
+
+.my-another-row{
+    section{
+        width:100%;
+        background-color: $whiteColor;
+        border-radius: 22px;
+
+
+        img{
+            padding-top:6rem;
+        }
+        h2{
+            font-weight: 700;
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+            color:$anotherColor;
+            margin-top: 2rem;
+        }
+
+        h3{
+            font-size: 4rem;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+
+            span{
+                font-size:1rem;
+            }
+        }
+        p{
+            font-size: 1.7rem;
+            color:$anotherColor;
+        }
+
+        hr{
+            max-width:300px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        button{
+            margin:3rem 0;
+            border-radius: 23px;
+            width: 120px;
+            height: 48px;
+            color: $whiteColor;
+            background:$mycolor;
+            font-weight: 700;
+        }
+    }
+}
+
+.other{
+    section{
+        background: $mycolor;
+        color: $whiteColor;
+
+        h2,h3,p,span{
+            color:$whiteColor;
+        }
+        button{
+            background-color: $whiteColor;
+            color:$mycolor;
+        }
+
+        button:hover{
+            border:1px solid $whiteColor;
+            background: transparent;
+        }
+    }
+}
+
+.dolar{
+    width:90px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    color:$anotherColor;
+    margin-bottom: 3rem;
+
+
+    span{
+        margin-top:20px;
+        font-size: 2rem;
+    }
+}

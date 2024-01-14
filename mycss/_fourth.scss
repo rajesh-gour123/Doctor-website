@@ -1,0 +1,51 @@
+.fourth{
+    background-image: url(../img/bedoctor-section-bg3.webp);
+    background-size: cover;
+    background-attachment: fixed;
+
+    .fourth-section{
+        padding:7.9rem 1.5rem;
+        
+    h3{
+        font-size: 5rem;
+        font-weight: 600;
+        color:$whiteColor;
+        padding-bottom: 4rem;
+    }
+    button{
+        border-radius: 23px;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+        width: 160px;
+        height: 48px;
+        background:  $mycolor;;
+        color: $whiteColor;
+        font-size: 1.7rem;
+        border:none;
+    }
+
+    button:hover{
+        background-color: $anotherColor;
+    }
+    }
+
+}
+
+.three-text-section{
+
+    margin-top: 10rem;
+
+   section{
+    width:70%;
+
+    img{
+        margin-bottom: 4.2rem;
+    }
+    p{
+        margin: 0 0 10px;
+        font-size: 2rem;
+        color: $whiteColor;
+        line-height: 3.2rem;
+    }
+   }
+}
