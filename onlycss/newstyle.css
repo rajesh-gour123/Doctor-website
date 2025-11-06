@@ -883,7 +883,7 @@ html{
 
 
 
-    @media only screen and (max-width:700px){
+    @media only screen and (max-width:768px){
 
         .my-header{
             width:100%;
@@ -955,17 +955,17 @@ html{
             opacity: 1;
             transform: translateZ(0);
             pointer-events: auto;
+             position: fixed;
+                height: -webkit-fill-available;
         }
 
        .active .mobile-nav-icon[name="close-outline"] {
             display: block;
-            position: absolute;
+            position: fixed;
             top:0;
             left:0;
-
+            padding: 1.5rem;
             transition: all 400ms linear 0s;
-            font-size: 2.8rem;
-            color:gray;
           }
 
           .active .mobile-nav-icon[name="close-outline"]:hover{
